@@ -1,0 +1,11 @@
+$grid-width: 90px;
+$length: 4;
+
+.grid-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border: 0.5px solid #666;
+	padding: 0;
+	max-width: $grid-width * $length;
+}
